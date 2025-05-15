@@ -17,9 +17,9 @@ function NiceShareButton({output}: {output:string}) {
             if (navigator.canShare) {
             navigator
                 .share({
-                title: "Rosle",
-                text: output,
-                url: "https://rosle.pages.dev/",
+                    title: "Rosle",
+                    text: output,
+                    url: "https://rosle.pages.dev/",
                 })
                 .catch((error) => console.error("Share failed:", error));
             }

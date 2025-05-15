@@ -4,6 +4,8 @@ import roseImg from '../assets/rose.png'
 import ballerinaImg from '../assets/ballerina.jpg';
 import mrlincolnImg from '../assets/mrlincoln.jpg';
 import ladyshallottImg from '../assets/ladyshallott.jpg';
+import ebbtideImg from '../assets/ebbTide.jpg';
+import hotcocoaImg from '../assets/hotcocoa.jpg';
 
 interface IRose {
     name: string
@@ -80,6 +82,24 @@ interface IRose {
       min_usda_zone: 5,
       url: "https://garden.org/plants/view/228631/English-Shrub-Rose-Rosa-Lady-of-Shalott/",
       img: ladyshallottImg
+    },
+    "2025-05-15": {
+      name: "Ebb Tide",
+      bloom_size: [2,3],
+      bloom_shape: BloomShapes.ROSETTE,
+      petal_count: "full",
+      min_usda_zone: 6,
+      url: "https://garden.org/plants/view/2856/Rose-Rosa-Ebb-Tide/",
+      img: ebbtideImg
+    },
+    "2025-05-16": {
+      name: "Hot Cocoa",
+      bloom_size: [4,5],
+      bloom_shape: BloomShapes.HIGH_CENTERED,
+      petal_count: "full",
+      min_usda_zone: 6,
+      url: "https://garden.org/plants/view/1439/Rose-Rosa-Hot-Cocoa/",
+      img: hotcocoaImg
     }
   };
 

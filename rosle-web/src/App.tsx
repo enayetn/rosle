@@ -28,6 +28,10 @@ function App() {
   // TODO: Pull rose of the day 
   const [rose] = useState<IRose>(roses[getTodayDateString()]);
 
+  if (!rose) {
+    return <div>🥀 No rosle today because Nabil hasn't updated the database 🥀</div>
+  }
+
   // Answer state handling
   const [answerExplanation, setAnswerExplanation] = useState<string>("");
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
