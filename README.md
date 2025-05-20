@@ -1,19 +1,12 @@
 # Rosle
-<table border="0">
- <tr>
-    <td style="width:60%">
-        A daily rose guessing game built as a birthday present for my girlfriend, who loves rose plants
-    </td>
-    <td>
-        <img src="./furdurfurm-rose.jpg"/>
-        My pups Thunder and Storm, may they rest in peace, smelling a Hot Cocoa rose from our garden
-    </td>
- </tr>
-</table>
+ A daily rose guessing game built as a birthday present for my girlfriend, who loves rose plants
 
 This project consists of two main components, a scraper to build out the database, and a web-application that can be deployed as a static website.
 
 You can play rosle at rosle.pages.dev
+
+<img src="./furdurfurm-rose.jpg"/>
+<em>My pups Thunder and Storm, may they rest in peace, smelling a Hot Cocoa rose from our garden</em>
 
 ## Development
 Just run `npm run dev`
