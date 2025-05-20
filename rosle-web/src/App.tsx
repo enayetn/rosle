@@ -11,7 +11,7 @@ import { NiceShareButton } from './utility-components/NiceShareButton'
 import { TypeAnimation } from 'react-type-animation'
 import { getTodayDateString, ScoreHandler } from './gameplay-components/ScoreHandler'
 import type { IScore } from './gameplay-components/ScoreHandler'
-import { roses } from './gameplay-components/RoseStore'
+import { roses, type IRose } from './gameplay-components/RoseStore'
 
 // Hard coded consts
 const NUM_QUESTIONS = 4;

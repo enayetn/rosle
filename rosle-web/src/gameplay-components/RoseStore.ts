@@ -6,6 +6,12 @@ import mrlincolnImg from '../assets/mrlincoln.jpg';
 import ladyshallottImg from '../assets/ladyshallott.jpg';
 import ebbtideImg from '../assets/ebbTide.jpg';
 import hotcocoaImg from '../assets/hotcocoa.jpg';
+import gertrudejekyllImg from '../assets/gertrudejekyll.jpg';
+import earthangelImg from '../assets/earthAngel.jpg';
+import cherryparfaitImg from '../assets/cherryparfait.jpg';
+import summerromanceImg from '../assets/summerromance.jpg';
+import scarboroughfairImg from '../assets/scarboroughfair.jpg';
+
 
 interface IRose {
     name: string
@@ -100,7 +106,53 @@ interface IRose {
       min_usda_zone: 6,
       url: "https://garden.org/plants/view/1439/Rose-Rosa-Hot-Cocoa/",
       img: hotcocoaImg
-    }
+    },
+    "2025-05-17": {
+      name: "Gertrude Jekyll",
+      bloom_size: [4, 5],
+      bloom_shape: BloomShapes.QUARTER,
+      petal_count: "full",
+      min_usda_zone: 4,
+      url: "https://garden.org/plants/view/484/Rose-Rosa-Gertrude-Jekyll/",
+      img: gertrudejekyllImg
+    },
+    "2025-05-18": {
+      name: "Earth Angel",
+      bloom_size: [2, 3],
+      bloom_shape: BloomShapes.GLOBULAR,
+      petal_count: "very-full",
+      min_usda_zone: 5,
+      url: "https://garden.org/plants/view/733535/Rose-Rosa-Earth-Angel/",
+      img: earthangelImg
+    },
+    "2025-05-19": {
+      name: "Cherry Parfait",
+      bloom_size: [2, 3],
+      bloom_shape: BloomShapes.CUPPED,
+      petal_count: "full",
+      min_usda_zone: 6,
+      url: "https://garden.org/plants/view/6/Rose-Rosa-Cherry-Parfait/",
+      img: cherryparfaitImg
+    },
+    "2025-05-20": {
+      name: "Summer Romance",
+      bloom_size: [4, 5],
+      bloom_shape: BloomShapes.CUPPED,
+      petal_count: "full",
+      min_usda_zone: 5,
+      url: "https://garden.org/plants/view/697348/Rose-Rosa-Madame-de-Maintenon/",
+      img: summerromanceImg
+    },
+    "2025-05-21": {
+      name: "Scarborough Fair",
+      bloom_size: [2, 3],
+      bloom_shape: BloomShapes.CUPPED,
+      petal_count: "double",
+      min_usda_zone: 5,
+      url: "https://garden.org/plants/view/3074/Rose-Rosa-Scarborough-Fair/",
+      img: scarboroughfairImg
+    },
   };
 
 export {roses};
+export type {IRose}
