@@ -12,6 +12,7 @@ import cherryparfaitImg from '../assets/cherryparfait.jpg';
 import summerromanceImg from '../assets/summerromance.jpg';
 import scarboroughfairImg from '../assets/scarboroughfair.jpg';
 import topcreamImg from '../assets/topcream.jpg';
+import goldencelebrationImg from '../assets/goldencelebration.jpg';
 
 
 interface IRose {
@@ -22,6 +23,7 @@ interface IRose {
     min_usda_zone: number
     url: string
     img: string
+    color?: string
   }
   
   const BloomShapes = {
@@ -162,15 +164,15 @@ interface IRose {
     //   url: "https://garden.org/plants/view/1534/Rose-Rosa-Chrysler-Imperial/",
     //   img: roseImg
     // },
-    // "2025-05-23": {
-    //   name: "TODO",
-    //   bloom_size: [2, 3],
-    //   bloom_shape: [BloomShapes.CUPPED, BloomShapes.QUARTER],
-    //   petal_count: "double",
-    //   min_usda_zone: 7,
-    //   url: "https://garden.org/plants/view/359/China-Rose-Rosa-Cramoisi-Superieur/",
-    //   img: roseImg
-    // },
+    "2025-05-23": {
+      name: "Golden Celebration",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.CUPPED],
+      petal_count: "very-full",
+      min_usda_zone: 5,
+      url: "https://garden.org/plants/view/486/Rose-Rosa-Golden-Celebration/",
+      img: goldencelebrationImg
+    },
     "2025-05-24": {
       name: "Camille Claudel 'Top Cream'",
       bloom_size: [4, 5],
