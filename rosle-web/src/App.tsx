@@ -60,8 +60,8 @@ function App() {
         break;
       case 1:
         // Bloom Shape
-        isCorrect = rose.bloom_shape === currentAnswer;
-        setAnswerExplanation(`${rose.name} has ${rose.bloom_shape} blooms.`);
+        isCorrect = rose.bloom_shape.includes(currentAnswer);
+        setAnswerExplanation(`${rose.name} has ${rose.bloom_shape.map((shape) => shape).join(" and ")} blooms.`);
         break;
       case 2:
         // Petal Count
