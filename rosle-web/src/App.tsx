@@ -157,7 +157,7 @@ function App() {
                       <NiceCard><span className="text-xl">{parseScore(score.scores[2])}</span></NiceCard>
                       <NiceCard><span className="text-xl">{parseScore(score.scores[3])}</span></NiceCard>
                     </div>
-                  <NiceShareButton output={`${getDate()} \n ${score.scores.map(parseScore).join(" ")}`} />
+                  <NiceShareButton output={`${getDate()} \n${score.scores.map(parseScore).join(" ")}\n`} />
                   </>}
             </div>
           </div>

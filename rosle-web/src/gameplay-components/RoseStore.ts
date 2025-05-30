@@ -13,7 +13,15 @@ import summerromanceImg from '../assets/summerromance.jpg';
 import scarboroughfairImg from '../assets/scarboroughfair.jpg';
 import topcreamImg from '../assets/topcream.jpg';
 import goldencelebrationImg from '../assets/goldencelebration.jpg';
-
+import doubledelightImg from '../assets/doubledelight.jpg';
+import polkaImg from '../assets/polka.jpg';
+import kokolokoImg from '../assets/kokoloko.jpg';
+import apothecaryImg from '../assets/apothecary.jpg';
+import theresebugnetImg from '../assets/theresebugnet.jpg';
+import lydaImg from '../assets/lyda.jpg';
+import aprilloveImg from '../assets/aprillove.jpg';
+import tessImg from '../assets/tess.jpg';
+import handelImg from '../assets/handel.jpg';
 
 interface IRose {
     name: string
@@ -182,15 +190,87 @@ interface IRose {
       url: "https://garden.org/plants/view/812938/Rose-Rosa-Camille-Claudel/",
       img: topcreamImg
     },
-    // "2025-05-25": {
-    //   name: "TODO",
-    //   bloom_size: [2],
-    //   bloom_shape: [BloomShapes.FLAT],
-    //   petal_count: "single",
-    //   min_usda_zone: 5,
-    //   url: "https://garden.org/plants/view/40/Hybrid-Musk-Rose-Rosa-Ballerina/",
-    //   img: ballerinaImg
-    // },
+    "2025-05-25": {
+      name: "Double Delight",
+      bloom_size: [4,5],
+      bloom_shape: [BloomShapes.HIGH_CENTERED],
+      petal_count: "full",
+      min_usda_zone: 7,
+      url: "https://garden.org/plants/view/20/Hybrid-Tea-Rose-Rosa-Double-Delight/",
+      img: doubledelightImg
+    },
+    "2025-05-26": {
+      name: "Polka",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.CUPPED],
+      petal_count: "full",
+      min_usda_zone: 5,
+      url: "https://garden.org/plants/view/1619/Rose-Rosa-Polka/",
+      img: polkaImg
+    },
+    "2025-05-27": {
+      name: "Koko Loko",
+      bloom_size: [2,3],
+      bloom_shape: [BloomShapes.HIGH_CENTERED],
+      petal_count: "full",
+      min_usda_zone: 6,
+      url: "https://garden.org/plants/view/4428/Rose-Rosa-Koko-Loko/",
+      img: kokolokoImg
+    },
+    "2025-05-28": {
+      name: "Apothecary's Rose",
+      bloom_size: [2, 3],
+      bloom_shape: [BloomShapes.FLAT],
+      petal_count: "semi-double",
+      min_usda_zone: 3,
+      url: "https://garden.org/plants/view/4029/Rose-Rosa-gallica-Apothecarys-Rose/",
+      img: apothecaryImg
+    },
+    "2025-05-29": {
+      name: "Thérèse Bugnet",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.POMPON],
+      petal_count: "full",
+      min_usda_zone: 3,
+      url: "https://www.helpmefind.com/rose/l.php?l=2.2473",
+      img: theresebugnetImg
+    },
+    "2025-05-30": {
+      name: "Lyda",
+      bloom_size: [2, 3],
+      bloom_shape: [BloomShapes.FLAT],
+      petal_count: "single",
+      min_usda_zone: 5,
+      url: "https://www.helpmefind.com/gardening/l.php?l=2.3944",
+      img: lydaImg
+    },
+    "2025-05-31": {
+      name: "April Love",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.CUPPED],
+      petal_count: "very-full",
+      min_usda_zone: 5,
+      url: "https://www.helpmefind.com/gardening/l.php?l=2.41441",
+      img: aprilloveImg
+    },
+    "2025-06-01": {
+      name: "Tess of the d'Urbervilles",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.CUPPED],
+      petal_count: "full",
+      min_usda_zone: 5,
+      url: "https://www.helpmefind.com/gardening/l.php?l=2.18153",
+      img: tessImg
+    },
+    "2025-06-02": {
+      name: "Handel",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.HIGH_CENTERED],
+      petal_count: "full",
+      min_usda_zone: 6,
+      url: "https://www.helpmefind.com/gardening/l.php?l=2.18153",
+      img: handelImg
+    },
   };
 
 export {roses};

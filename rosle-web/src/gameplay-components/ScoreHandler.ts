@@ -14,7 +14,14 @@ interface IScore {
 
 const getTodayDateString = () => {
     const today = new Date();
-    const date = today.toISOString().split('T')[0];
+
+    // Surely there is a better way
+    const dateArr = today.toLocaleDateString()
+        .split("/")
+        .map((v)=>{
+            return v.padStart(2, "0")
+        });
+    const date = dateArr[2] + "-" + dateArr[0] + "-" + dateArr[1];
 
     return date;
 }
