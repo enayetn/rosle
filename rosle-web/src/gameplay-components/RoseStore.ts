@@ -7,7 +7,7 @@ import ladyshallottImg from '../assets/ladyshallott.jpg';
 import ebbtideImg from '../assets/ebbtide.jpg';
 import hotcocoaImg from '../assets/hotcocoa.jpg';
 import gertrudejekyllImg from '../assets/gertrudejekyll.jpg';
-import earthangelImg from '../assets/earthAngel.jpg';
+import earthangelImg from '../assets/earthangel.jpg';
 import cherryparfaitImg from '../assets/cherryparfait.jpg';
 import summerromanceImg from '../assets/summerromance.jpg';
 import scarboroughfairImg from '../assets/scarboroughfair.jpg';
