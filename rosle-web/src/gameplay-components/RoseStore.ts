@@ -22,6 +22,8 @@ import lydaImg from '../assets/lyda.jpg';
 import aprilloveImg from '../assets/aprillove.jpg';
 import tessImg from '../assets/tess.jpg';
 import handelImg from '../assets/handel.jpg';
+import vanessabellImg from '../assets/vanessabell.jpg';
+import boscabelImg from '../assets/boscabel.jpg';
 
 interface IRose {
     name: string
@@ -270,6 +272,24 @@ interface IRose {
       min_usda_zone: 6,
       url: "https://www.helpmefind.com/gardening/l.php?l=2.18153",
       img: handelImg
+    },
+    "2025-06-05": {
+      name: "Vanessa Bell",
+      bloom_size: [2,3],
+      bloom_shape: [BloomShapes.CUPPED],
+      petal_count: "full",
+      min_usda_zone: 5,
+      url: "https://helpmefind.com/gardening/l.php?l=2.78356&tab=1",
+      img: vanessabellImg
+    },
+    "2025-06-06": {
+      name: "Boscobel",
+      bloom_size: [2, 3],
+      bloom_shape: [BloomShapes.CUPPED],
+      petal_count: "very-full",
+      min_usda_zone: 5,
+      url: "https://helpmefind.com/rose/l.php?l=2.67032&tab=1",
+      img: boscabelImg
     },
   };
 
