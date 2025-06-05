@@ -4,7 +4,7 @@ import roseImg from '../assets/rose.png'
 import ballerinaImg from '../assets/ballerina.jpg';
 import mrlincolnImg from '../assets/mrlincoln.jpg';
 import ladyshallottImg from '../assets/ladyshallott.jpg';
-import ebbtideImg from '../assets/ebbTide.jpg';
+import ebbtideImg from '../assets/ebbtide.jpg';
 import hotcocoaImg from '../assets/hotcocoa.jpg';
 import gertrudejekyllImg from '../assets/gertrudejekyll.jpg';
 import earthangelImg from '../assets/earthAngel.jpg';
