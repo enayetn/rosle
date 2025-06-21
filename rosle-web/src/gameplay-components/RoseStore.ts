@@ -24,6 +24,9 @@ import tessImg from '../assets/tess.jpg';
 import handelImg from '../assets/handel.jpg';
 import vanessabellImg from '../assets/vanessabell.jpg';
 import boscabelImg from '../assets/boscabel.jpg';
+import flowerCarpetAmberImg from '../assets/flowercarpetamber.jpg';
+import blackBacaratImg from '../assets/blackbacarat.jpg';
+import honeyDijonImg from '../assets/honeydijon.jpg';
 
 interface IRose {
     name: string
@@ -291,6 +294,33 @@ interface IRose {
       url: "https://helpmefind.com/rose/l.php?l=2.67032&tab=1",
       img: boscabelImg
     },
+    "2025-06-21": {
+      name: "Flower Carpet Amber",
+      bloom_size: [2, 3],
+      bloom_shape: [BloomShapes.POMPON],
+      petal_count: "double",
+      min_usda_zone: 6,
+      url: "https://www.helpmefind.com/gardening/l.php?l=2.41676.3",
+      img: flowerCarpetAmberImg
+    },
+    "2025-06-22": {
+      name: "Black Bacarat",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.HIGH_CENTERED],
+      petal_count: "full",
+      min_usda_zone: 7,
+      url: "https://www.helpmefind.com/gardening/l.php?l=2.35457",
+      img: blackBacaratImg
+    },
+    "2025-06-23": {
+      name: "Honey Dijon",
+      bloom_size: [4, 5],
+      bloom_shape: [BloomShapes.HIGH_CENTERED],
+      petal_count: "full",
+      min_usda_zone: 6,
+      url: "https://www.helpmefind.com/gardening/l.php?l=2.36940",
+      img: honeyDijonImg
+    }
   };
 
 export {roses};
