@@ -26,6 +26,9 @@ jobs:
         run: |
           cd rosle-web
           npm run build
+
+      - name: Test
+        run: echo "Token is ${{ secrets.GITHUB_TOKEN }}"
           
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
